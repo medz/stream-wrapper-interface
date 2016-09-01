@@ -19,6 +19,6 @@
     "autoload": {
         "classmap": [
             "src/WrapperInterface.php"
-        ],
+        ]
     }
 }
