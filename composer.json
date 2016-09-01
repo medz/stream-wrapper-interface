@@ -1,0 +1,24 @@
+{
+    "name": "medz/stream-wrapper-interface",
+    "type": "library",
+    "description": "A php interface for wrapper.",
+    "keywords": ["medz", "php", "interface", "wrapper", "wrapperInterface", "streamWrapper"],
+    "homepage": "http://medz.cn",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "lovevipdsw@outlook.com",
+            "homepage": "http://medz.cn",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers/Controller.php",
+        ],
+    }
+}
