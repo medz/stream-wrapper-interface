@@ -18,7 +18,7 @@
     },
     "autoload": {
         "classmap": [
-            "src/controllers/Controller.php",
+            "src/WrapperInterface.php"
         ],
     }
 }
