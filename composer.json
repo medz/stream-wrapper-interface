@@ -1,7 +1,7 @@
 {
     "name": "medz/stream-wrapper-interface",
     "type": "library",
-    "description": "A php interface for wrapper.",
+    "description": "Common interface for streamWrapper class.",
     "keywords": ["medz", "php", "interface", "wrapper", "wrapperInterface", "streamWrapper"],
     "homepage": "http://medz.cn",
     "license": "MIT",
