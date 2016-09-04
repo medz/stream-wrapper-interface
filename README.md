@@ -51,7 +51,8 @@ class DemoStream implements WrapperInterface
  file_put_contents('demo://test.txt', 'This is a test content.');
  ```
 
- ## Use vendor package. 使用第三方包
+## Use vendor package. 使用第三方包
+
 `(symfony/finder)`:
 ```php
         use Symfony\Component\Finder\Finder;
@@ -63,7 +64,7 @@ class DemoStream implements WrapperInterface
         {
             var_dump($file);
         }
-    ```
+```
 
 # License:
 MIT
