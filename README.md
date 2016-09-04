@@ -37,19 +37,19 @@ class DemoStream implements WrapperInterface
 }
 
 ```
- ## Register this object as stream wrapper. 注册这个streamWrapper.
- ```php
- stream_register_wrapper('demo', 'DemoStream');
- ```
+## Register this object as stream wrapper. 注册这个streamWrapper.
+```php
+stream_register_wrapper('demo', 'DemoStream');
+```
 
- ## use the wrapper client. 使用这个注册的自定义流协议。
- ```php
- // get
- file_get_contents('demo://test.txt');
+## use the wrapper client. 使用这个注册的自定义流协议。
+```php
+// get
+file_get_contents('demo://test.txt');
 
- // put
- file_put_contents('demo://test.txt', 'This is a test content.');
- ```
+// put
+file_put_contents('demo://test.txt', 'This is a test content.');
+```
 
 ## Use vendor package. 使用第三方包
 
