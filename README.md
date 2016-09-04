@@ -14,6 +14,11 @@ This is NOT a real class, only a prototype of how a class defining its own proto
 ⚠️*️注意：*
 这个包的class不是一个实例，而是一个可以规范实例需要完成的方法的接口类。
 
+# Composer
+```shell
+composer require medz/stream-wrapper-interface
+```
+
 # Demo
 ```php
 use Medz\Component\WrapperInterface\WrapperInterface
@@ -65,6 +70,8 @@ foreach ($finder as $file)
     var_dump($file);
 }
 ```
+# Use the package for Aliyun OSS SDK. 使用这个接口的阿里云sdk。
+[medz/oss-stream-wrapper](https://packagist.org/packages/medz/oss-stream-wrapper) alias [medz/aliyun-oss](https://packagist.org/packages/medz/aliyun-oss)
 
 # License:
 MIT
