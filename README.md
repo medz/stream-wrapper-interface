@@ -55,15 +55,15 @@ file_put_contents('demo://test.txt', 'This is a test content.');
 
 `(symfony/finder)`:
 ```php
-        use Symfony\Component\Finder\Finder;
+use Symfony\Component\Finder\Finder;
 
-        $finder = new Finder();
-        $finder->files()->in('demo://src');
+$finder = new Finder();
+$finder->files()->in('demo://src');
 
-        foreach ($finder as $file)
-        {
-            var_dump($file);
-        }
+foreach ($finder as $file)
+{
+    var_dump($file);
+}
 ```
 
 # License:
