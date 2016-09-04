@@ -52,8 +52,8 @@ class DemoStream implements WrapperInterface
  ```
 
  ## Use vendor package. 使用第三方包
-    - (symfony/finder)
-    - ```php
+`(symfony/finder)`:
+```php
         use Symfony\Component\Finder\Finder;
 
         $finder = new Finder();
